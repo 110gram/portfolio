@@ -1,0 +1,119 @@
+
+/* Navigation */
+#mainNav {
+  background-color: #ffffff;
+  opacity:0.9;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow:0px 1px 2px #D8D8D8;
+  border:1px solid #F7F7F7;
+}
+
+#mainNav .navbar {
+position: relative;
+display: flex;
+flex-wrap: wrap; 
+align-items: center;
+justify-content: space-between;
+padding:0.5em;
+}
+#mainNav .navbar .container,
+#mainNav .navbar .container-fluid {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+
+#mainNav .navbar-brand {
+display: inline-block;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+margin-right: 0.5em;
+margin-left: 0.5em;
+line-height: inherit;
+white-space: nowrap;
+}
+
+#mainNav .navbar-brand img {
+  opacity:0.6;
+  width:2.8em;
+  }
+
+#mainNav .navbar-nav {
+display: flex;
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+}
+
+#mainNav .navbar-nav.nav-link {
+padding-right: 0;
+padding-left: 0;
+color:#222222;
+}
+
+#mainNav .navbar-toggler {
+font-size: 28px;
+right: 0;
+opacity:0.6;
+text-transform: uppercase;
+color:#222222;
+border: 0;
+font-family: 'Raleway', sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+font-size: 100%;
+font-weight: bold;
+padding: 0.75em 0;
+letter-spacing: .15em;
+color:#222222;
+font-family: 'Raleway', sans-serif;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+color: #fed136;
+}
+
+
+@media (min-width: 992px) {
+  #mainNav {
+      border:none;
+      background: #ffffff;
+      -webkit-backdrop-filter: blur(10px);
+	    backdrop-filter: blur(10px);
+      box-shadow:0px 1px 2px #D8D8D8;
+  }
+  #mainNav .navbar-brand {
+  }
+  #mainNav .navbar-brand img {
+    width:77px;
+    height:30px;
+    opacity:0.6;
+    }
+  #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 2em 1em !important;
+      font-weight: boder;
+      color:#222222;
+  }
+  #mainNav.navbar-nav .dropdown-menu {
+    position: absolute;
+  }   
+  #mainNav.navbar-nav .container,
+  #mainNav.navbar-nav .container-fluid {
+  flex-wrap: nowrap;
+  }   
+  #mainNav.navbar-toggler {
+  display: none;
+  }
+  #mainNav.navbar-nav.dropdown-menu {
+  position: static;
+  float: none;
+  }
+}
+
+
+
+      
+ 
