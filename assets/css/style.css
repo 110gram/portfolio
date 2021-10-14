@@ -464,6 +464,24 @@ h1 {
 #col-md-3 col-sm-6 {
     flex: 0 0 auto;
 }
+#build1 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+}
+#build2 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+}
+#build3 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+}
 
 /*  Title video */
 .masthead {
